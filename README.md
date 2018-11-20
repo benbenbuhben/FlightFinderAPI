@@ -8,6 +8,25 @@
 
 ## Getting Started
 
+In a terminal instance:
+
+1. ```git clone https://github.com/benbenbuhben/FlightFinderAPI.git```
+2. ```cd FlightFinder API```
+
+### Seed the SQLite Database from csv files
+
+Note: This should already be done, but if .csv files are modified, place them in ```FlightFinderAPI/SampleData``` and run:
+
+1. ```dotnet ef migrations add InitialCreate```
+2. ```dotnet ef database update```
+
+### Start the Server
+
+1. ```dotnet run```
+
+
+Client-side link and instructions to come! 
+
 ## API Endpoints
 
 ## References
@@ -18,4 +37,6 @@
 ## Change Log
 
 11-20-2018 11:00am - Completed Initial Scaffolding based on ASP.NET Web API Tutorial
+
+11-20-2018 1:24pm - SQLite database successfully seeding with sample .csv data.
 
