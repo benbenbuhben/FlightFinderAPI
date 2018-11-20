@@ -18,7 +18,7 @@ namespace FlightFinderAPI.Controllers
         public FlightsController(FlightContext context) => _context = context;
 
         // TODO: Can we just handle invalid query params on client side? Yes, but we should still handle invalid raw url's. Is NotFound the appropriate status code?
-        [HttpGet("/search/{orderBy?}", Name = "GetFlights")]
+        [HttpGet("search/{orderBy?}")]
         public ActionResult<List<Flight>> SortBySpecifiedParameter([FromQuery]string from, [FromQuery]string to)
         {   
             if(from == null || to == null){ return NotFound(); }
@@ -31,7 +31,7 @@ namespace FlightFinderAPI.Controllers
             return flights.Where(flight => flight.From == from).Where(flight => flight.To == to).ToList();  
         }
 
-        [HttpGet("/search", Name = "GetFlights")]
+        [HttpGet("search")]
         public ActionResult<List<Flight>> GetByOriginAndDestination([FromQuery]string from, [FromQuery]string to)
         {   
             if(from == null || to == null){ return NotFound(); }
@@ -42,7 +42,7 @@ namespace FlightFinderAPI.Controllers
             return flights.Where(flight => flight.From == from).Where(flight => flight.To == to).ToList();  
         }
        
-        [HttpGet("/all", Name = "GetAllFlights")]
+        [HttpGet("all", Name = "GetAllFlights")]
         public ActionResult<List<Flight>> GetAll() => _context.Flight.ToList();
 
         // TODO: We need a method to send over all long-form airport names for React Bootstrap Typeahead likely on ComponentWillMount. Possibly, create Airports Controller.
