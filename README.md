@@ -2,7 +2,7 @@
 
 **Author**: Ben Hurst
 
-**Version**: x.x.x
+**Version**: 0.1.0
 
 ## Overview
 
@@ -24,8 +24,7 @@ Note: This should already be done, but if .csv files are modified, place them in
 
 1. ```dotnet run```
 
-
-Client-side link and instructions to come! 
+Client-side link and instructions to come!
 
 ## API Endpoints
 
@@ -40,3 +39,4 @@ Client-side link and instructions to come!
 
 11-20-2018 1:24pm - SQLite database successfully seeding with sample .csv data.
 
+11-20-2018 2:22pm - Proof of life for /api/flights endpoints.

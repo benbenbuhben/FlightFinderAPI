@@ -22,7 +22,7 @@ namespace FlightFinderAPI
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Search}");
+                    template: "{controller=Flights}/{action}/{id?}");
             });
         }
     }
