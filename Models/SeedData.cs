@@ -42,8 +42,6 @@ namespace FlightFinderAPI.Models
                       var flights = flightsCsv.GetRecords<Flight>();
                       foreach(var flight in flights)
                       {
-                        // flight.From = context.Airport.Single(a => a.Code == flight.From).Name;
-                        // flight.To = context.Airport.Single(a => a.Code == flight.To).Name;
                         context.Flight.Add(flight);
                       }
                       context.SaveChanges();
