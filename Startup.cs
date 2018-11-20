@@ -8,10 +8,10 @@ namespace FlightFinderAPI
 {
     public class Startup
     {
+
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<FlightContext>(opt => 
-                opt.UseInMemoryDatabase("FlightList"));
+            services.AddDbContext<FlightContext>(options => options.UseSqlite("Data Source=FlightFinder.db"));
             services.AddMvc()
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

@@ -13,6 +13,7 @@
 ## References
 
 [ASP.NET Core Web API Tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/web-api-vsc?view=aspnetcore-2.1)
+[Working with SQL and .NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?tabs=aspnetcore2x&view=aspnetcore-2.1)
 
 ## Change Log
 
