@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{0EC6EEA9-1216-4F59-A222-556E6FE3DBE3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FlightFinderTests/AirportsControllerTest.cs">
+    <Files>
+      <File FileName="FlightFinderTests/AirportsControllerTest.cs" Line="37" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FlightFinderAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FlightFinderTests FirstBuild="True" />
+</Properties>

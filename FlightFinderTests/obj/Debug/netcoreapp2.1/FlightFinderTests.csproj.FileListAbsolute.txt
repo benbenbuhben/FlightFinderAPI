@@ -1,0 +1,17 @@
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/obj/Debug/netcoreapp2.1/FlightFinderTests.csprojAssemblyReference.cache
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/obj/Debug/netcoreapp2.1/FlightFinderTests.csproj.CoreCompileInputs.cache
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/obj/Debug/netcoreapp2.1/FlightFinderTests.AssemblyInfoInputs.cache
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/obj/Debug/netcoreapp2.1/FlightFinderTests.AssemblyInfo.cs
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/FlightFinderTests.deps.json
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/FlightFinderTests.runtimeconfig.json
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/FlightFinderTests.runtimeconfig.dev.json
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/FlightFinderTests.dll
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/FlightFinderTests.pdb
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/FlightFinderAPI.dll
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/bin/Debug/netcoreapp2.1/FlightFinderAPI.pdb
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/obj/Debug/netcoreapp2.1/FlightFinderTests.csproj.CopyComplete
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/obj/Debug/netcoreapp2.1/FlightFinderTests.dll
+/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderTests/obj/Debug/netcoreapp2.1/FlightFinderTests.pdb

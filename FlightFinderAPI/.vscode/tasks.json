@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/FlightFinderAPI/FlightFinderAPI.csproj"
+                "${workspaceFolder}/FlightFinderAPI.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
