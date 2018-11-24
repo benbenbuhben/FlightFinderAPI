@@ -12315,11 +12315,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderAPI/FlightFinderAPI.csproj",
+      "projectUniqueName": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinderAPI/FlightFinderAPI/FlightFinderAPI.csproj",
       "projectName": "FlightFinderAPI",
-      "projectPath": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderAPI/FlightFinderAPI.csproj",
+      "projectPath": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinderAPI/FlightFinderAPI/FlightFinderAPI.csproj",
       "packagesPath": "/Users/benjaminhurst/.nuget/packages/",
-      "outputPath": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinder/FlightFinderAPI/obj/",
+      "outputPath": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinderAPI/FlightFinderAPI/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -11,7 +11,7 @@ namespace FlightFinderAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<FlightContext>(options => options.UseSqlite("Data Source=FlightFinder.db"));
+            services.AddDbContext<FlightContext>(options => options.UseSqlite("Data Source=./wwwroot/FlightFinder.db"));
             services.AddMvc()
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -23,6 +23,9 @@ namespace FlightFinderAPI
                .AllowAnyMethod()
                .AllowAnyHeader()
             );
+
+            // app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

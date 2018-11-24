@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\Sample Data\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,4 +18,17 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="EmptyTextFile.txt" />
+    <None Remove="FlightFinder.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\airports.txt" />
+    <Content Remove="wwwroot\flights.txt" />
+    <Content Remove="wwwroot\Sample Data\flights.txt" />
+    <Content Remove="wwwroot\Sample Data\flights.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wwwroot\Sample Data\airports.txt" />
+  </ItemGroup>
 </Project>

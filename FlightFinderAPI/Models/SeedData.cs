@@ -15,7 +15,7 @@ namespace FlightFinderAPI.Models
             {
                 if (!context.Airport.Any())
                 {
-                    string airportsCsvFilepath = "./SampleData/airports.csv";
+                    string airportsCsvFilepath = "wwwroot/SampleData/airports.csv";
                     using (StreamReader reader = File.OpenText(airportsCsvFilepath))
                     {
                       var airportsCsv = new CsvReader(reader);
@@ -34,7 +34,7 @@ namespace FlightFinderAPI.Models
                 // Consider refactoring to call a SeedMissing method to make DRY-er.
                 if (!context.Flight.Any())
                 {
-                    string flightsCsvFilepath = "./SampleData/flights.csv";
+                    string flightsCsvFilepath = "wwwroot/SampleData/flights.csv";
                     using (StreamReader reader = File.OpenText(flightsCsvFilepath))
                     {
                       var flightsCsv = new CsvReader(reader);
