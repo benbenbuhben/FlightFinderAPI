@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using FlightFinderAPI.Models;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace FlightFinderAPI
 {
@@ -14,6 +15,12 @@ namespace FlightFinderAPI
             services.AddDbContext<FlightContext>(options => options.UseSqlite("Data Source=./wwwroot/FlightFinder.db"));
             services.AddMvc()
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddSwaggerGen( c => 
+            {
+                c.SwaggerDoc("v1", new Info { Title="Flight Finder API", Description="Swagger Docs"});
+            }
+
+            );
         }
 
         public void Configure(IApplicationBuilder app)
@@ -36,6 +43,13 @@ namespace FlightFinderAPI
                     name: "airports",
                     template: "{controller=Airports}/{action}/{id?}");
             });
+
+            app.UseSwagger();
+            app.UseSwaggerUI( c => 
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Flight Finder API");
+            }
+            );
 
             
         }
