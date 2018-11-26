@@ -37,6 +37,10 @@ namespace FlightFinderAPI
             {
                 routes.MapRoute(
                     name: "default",
+                    template: "{controller=Home}/{action=Index}");
+                    
+                routes.MapRoute(
+                    name: "flights",
                     template: "{controller=Flights}/{action}/{id?}");
 
                 routes.MapRoute(

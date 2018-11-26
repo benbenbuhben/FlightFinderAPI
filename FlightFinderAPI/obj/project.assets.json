@@ -12428,13 +12428,13 @@
       "projectName": "FlightFinderAPI",
       "projectPath": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinderAPI/FlightFinderAPI/FlightFinderAPI.csproj",
       "packagesPath": "/Users/benjaminhurst/.nuget/packages/",
-      "outputPath": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinderAPI/FlightFinderAPI/obj/",
+      "outputPath": "/Users/benjaminhurst/codefellows/refactor-alaska/FlightFinderAPI/FlightFinderAPI/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/benjaminhurst/.nuget/NuGet/NuGet.Config"
+        "/Users/benjaminhurst/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -12458,39 +12458,39 @@
         "dependencies": {
           "CsvHelper": {
             "target": "Package",
-            "version": "[9.2.2, )"
+            "version": "9.2.2"
           },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.1, )",
-            "autoReferenced": true
+            "version": "2.1.1"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.2, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
-            "target": "Package",
-            "version": "[2.1.1, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.1.0, )",
-            "autoReferenced": true
+            "version": "2.1.2"
           },
           "SQLite": {
             "target": "Package",
-            "version": "[3.13.0, )"
-          },
-          "System.Data.SQLite": {
-            "target": "Package",
-            "version": "[1.0.109.2, )"
+            "version": "3.13.0"
           },
           "swashbuckle.aspnetcore": {
             "target": "Package",
-            "version": "[4.0.1, )"
+            "version": "4.0.1"
+          },
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "1.0.109.2"
+          },
+          "Microsoft.EntityFrameworkCore.Sqlite": {
+            "target": "Package",
+            "version": "2.1.1"
+          },
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "2.1",
+            "autoReferenced": true
           }
         },
         "imports": [
