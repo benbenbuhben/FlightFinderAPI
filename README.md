@@ -36,7 +36,7 @@ Simple ASP.NET Core API to serve airport flight information. Data is loaded from
 ___
 
 <a id="gettingStarted"></a>
-## Getting Started in Development
+## Getting Started in Development (using .NET Core CLI tool)
 
 <a id="clone"></a>
 
