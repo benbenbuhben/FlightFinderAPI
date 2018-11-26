@@ -1,5 +1,4 @@
 <a id="top"></a>
-
 # Flight Finder API
 
 **Author**: Ben Hurst
