@@ -23,7 +23,6 @@ ___
 * [Models](#models)
   * [Airport Model](#airport-model)
   * [Flight Model](#flight-model)
-* [Further Work](#further-work)
 * [References](#references)
 * [Change Log](#change-log)
 
