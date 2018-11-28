@@ -12,6 +12,13 @@
 **Front-end GitHub Repo:** https://github.com/benbenbuhben/flight-finder-client
 ___
 
+<a id="overview"></a>
+## Overview
+
+Simple ASP.NET Core API to serve airport flight information. Data is loaded from CSV files (using the NuGet package [CSVHelper](https://joshclose.github.io/CsvHelper/)) into a SQLite database upon startup and then dynamically accessed through HTTP requests.
+
+___
+
 ## Table of contents
 * [Overview](#overview)
 * [Getting Started](#gettingStarted)
@@ -25,13 +32,6 @@ ___
   * [Flight Model](#flight-model)
 * [References](#references)
 * [Change Log](#change-log)
-
-___
-
-<a id="overview"></a>
-## Overview
-
-Simple ASP.NET Core API to serve airport flight information. Data is loaded from CSV files (using the NuGet package [CSVHelper](https://joshclose.github.io/CsvHelper/)) into a SQLite database upon startup and then dynamically accessed through HTTP requests.
 
 ___
 
